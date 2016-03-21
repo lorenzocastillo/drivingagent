@@ -192,7 +192,7 @@ class Environment(object):
                     reward += 10  # bonus
                 self.done = True
                 print "Environment.act(): Primary agent has reached destination!"  # [debug]
-            self.status_text = "state: {}\naction: {}\nreward: {}".format(agent.get_state(), action, reward)
+            self.status_text = "state: {}\naction: {}\nreward: {}\ndeadline: {}".format(agent.get_state(), action, reward, state['deadline'])
             #print "Environment.act() [POST]: location: {}, heading: {}, action: {}, reward: {}".format(location, heading, action, reward)  # [debug]
 
         return reward
