@@ -10,7 +10,7 @@ https://www.pygame.org/wiki/GettingStarted
 
 ## Code
 
-Open `smartcab/agent.py` and implement `LearningAgent`. Follow `TODO`s for further instructions.
+Open `smartcab/agent.py` and implement `LearningAgent`.
 
 ## Run
 
